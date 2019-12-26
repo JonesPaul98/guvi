@@ -1,0 +1,11 @@
+s1=int(input("enter the marks for English:"))
+s2=int(input("enter the marks for Tamil:"))
+s3=int(input("enter the marks for Maths:"))
+s4=int(input("enter the marks for Science:"))
+s5=int(input("enter the marks for Social:"))
+total=s1+s2+s3+s4+s5
+avg=total/5
+percent=(total/500)*100
+print("Total marks of all subject is:",total)
+print("Average mark of all subject is:",avg)
+print("Percentage of mark scored is:",percent)
