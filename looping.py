@@ -30,3 +30,14 @@ while i<=n:
   print("area of circle:",area)
   print("area of circle:",circumference)
   print("area of circle:",diameter)
+
+  #print multiplication table of any number-While loop
+  i=0
+n=int(input("enter the number:"))
+while i<=n:
+  k=range(11)
+  for j in k:
+    tables=n*j
+    print(tables)
+  break
+  
